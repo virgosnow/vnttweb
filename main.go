@@ -8,7 +8,7 @@ import (
 	"path"
 )
 
-var tmFileDir = flag.String("d", "", "translation memory file dir")
+var tmFileDir = flag.String("d", "tm", "translation memory file dir")
 
 // transMem 显示翻译记忆
 func transMem(w http.ResponseWriter, r *http.Request) {
